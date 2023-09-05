@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100;300;400;500;700;900&display=swap');
+body{
+    font-family: 'Noto Sans HK', sans-serif;
+}
+:root {
+    --mycolor01: #91d472;
+    --mycolor02: #45bb89;
+    --mycolor03: #3d82ab;
+    --mycolor04: #003853;
+    --mycolor05: #5bbdc8;
+    --mycolor06: #91d4c2;
+    --mycolor07: #45bbb9;
+    --mycolor08: #3d82ab;
+    --mycolor09: #003853;
+    --mycolor10: #ee3239;
+    --mycolor11: #5eaa5f;
+    --mycolor12: #9d6ab9;
+    --mycolor13: #bedae5;
+    --mycolor14: #e13239;
+    --mycolor15: #1f1762;
+    --mycolor16: #ffc2c3;
+    --mycolor17: #fe7773;
+    --mycolor18: #e81e25;
+    --mycolor19: #a6c2ce;
+    --mycolor20: #ebc57c;
+}
+
+.fw-100 {
+    font-weight: 100;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+.demo {
+    /* solid是實線 */
+    border: 5px solid var(--mycolor01);
+    margin: 15px;
+    padding: 15px;
+}
+
+.box01{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid var(--mycolor03)
+}
+
+.box02{
+    margin-top: 10px;
+    height: 120px;
+    background-color: var(--mycolor11);
+    border: 2px solid var(--mycolor08)
+}
+
+.bg-cover{
+    background-position:center center;  /*置中*/
+    background-size: cover; /*隨著縮小或放大*/
+}
